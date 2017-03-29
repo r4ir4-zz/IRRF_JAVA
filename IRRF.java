@@ -1,10 +1,10 @@
-package IRRF;
+package helloworld;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class IRRF {
+public class HelloWorld {
 private static DecimalFormat df2 = new DecimalFormat(".##");
 public static void main (String[] args) throws IOException {
 double salario = 0, irrf = 0;
@@ -58,7 +58,7 @@ String newline = System.getProperty("line.separator");
 			irrf = (5189.82 * (22.5/100));
 			System.out.println(df2.format(irrf) + " R$ por mês");
 			System.out.println("O valor a ser deduzido segundo a tabela de 2016 é de 354.80 R$");
-			irrf = irrf - 142.80;
+			irrf = irrf - 354.80;
 			System.out.println("O Valor final a ser deduzido é de: " + df2.format(irrf)); 
 			irrf = irrf * 12;
 			System.out.println("O valor anual pago de IRRF por você é: " + df2.format(irrf));
@@ -84,7 +84,7 @@ String newline = System.getProperty("line.separator");
 			irrf = (5189.82 * (22.5/100));
 			System.out.println(df2.format(irrf) + " R$ por mês");
 			System.out.println("O valor a ser deduzido segundo a tabela de 2016 é de 636.13 R$");
-			irrf = irrf - 142.80;
+			irrf = irrf - 636.13;
 			System.out.println("O Valor final a ser deduzido é de: " + df2.format(irrf)); 
 			irrf = irrf * 12;
 			System.out.println("O valor anual pago de IRRF por você é: " + df2.format(irrf));
@@ -110,7 +110,7 @@ String newline = System.getProperty("line.separator");
 			irrf = (5189.82 * (27.5/100));
 			System.out.println(df2.format(irrf) + " R$ por mês");
 			System.out.println("O valor a ser deduzido segundo a tabela de 2016 é de 869.36 R$");
-			irrf = irrf - 142.80;
+			irrf = irrf - 869.36;
 			System.out.println("O Valor final a ser deduzido é de: " + df2.format(irrf)); 
 			irrf = irrf * 12;
 			System.out.println("O valor anual pago de IRRF por você é: " + df2.format(irrf));
